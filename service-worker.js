@@ -1,14 +1,14 @@
 var files = [
     "/come-a-aqui/index.html",
-    "/manifest.json",
-    "/images/icons/icon-72x72.png",
-    "/images/icons/icon-96x96.png",
-    "/images/icons/icon-128x128.png",
-    "/images/icons/icon-144x144.png",
-    "/images/icons/icon-152x152.png",
-    "/images/icons/icon-192x192.png",
-    "/images/icons/icon-384x384.png",
-    "/images/icons/icon-512x512.png",
+    "/come-a-aqui/manifest.json",
+    "/come-a-aqui/images/icons/icon-72x72.png",
+    "/come-a-aqui/images/icons/icon-96x96.png",
+    "/come-a-aqui/images/icons/icon-128x128.png",
+    "/come-a-aqui/images/icons/icon-144x144.png",
+    "/come-a-aqui/images/icons/icon-152x152.png",
+    "/come-a-aqui/images/icons/icon-192x192.png",
+    "/come-a-aqui/images/icons/icon-384x384.png",
+    "/come-a-aqui/images/icons/icon-512x512.png",
   ];
   // dev only
   if (typeof files == 'undefined') {
