@@ -1,5 +1,5 @@
 var files = [
-    "/index.html",
+    "/come-a-aqui/index.html",
     "/manifest.json",
     "/images/icons/icon-72x72.png",
     "/images/icons/icon-96x96.png",
