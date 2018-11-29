@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PWA</title>
+    <link rel="manifest" href="manifest.json">
+    <script>
+        if ('serviceWorker' in navigator ) {
+          
+          navigator.serviceWorker.register('service-worker.js', {
+            scope: './'
+          }).then(function(registration) {
+            if (typeof registration.update == 'function') {
+              registration.update();
+            }
+          }).catch(function(e) {
+            console.error('Error during service worker registration:', e);
+          });
+          
+        }
+
+        localStorage.setItem("Andre","1");
+        localStorage.setItem("Oi","2");
+        localStorage.setItem("Mec","3");
+        localStorage.setItem("Chef","4");
+          </script>
+</head>
+<body>
+    <h1>Oi</h1>
+</body>
+</html>
